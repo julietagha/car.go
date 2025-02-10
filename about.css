@@ -1,0 +1,40 @@
+body{
+  font-weight: bold;
+}
+.profilepic{
+ max-width: 300px;
+  object-fit: contain;
+  object-position: center;
+  border-radius:  50%;
+  overflow: auto;
+  position: relative;
+}
+.container{
+  background-color: whitesmoke;
+  border: 6px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color:blue;
+  border: 0;
+  border-radius: 6px;
+  color: white;
+  padding: 5px  10px;
+}
+button:hover{
+  background-color: rgb(96, 96, 250);
+}
+.maincontainer{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  width: 100%;
+}
+.about1,.about2{
+  border-radius: 8px;
+  background-color: bisque;
+}

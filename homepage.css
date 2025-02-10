@@ -1,0 +1,81 @@
+
+  
+*{
+  margin: 0;
+  padding-left: 0;
+  
+}
+.container{
+ align-items: center;
+ text-align: center;
+}
+
+.div1,.div2{
+  background-color: whitesmoke;
+  border-radius: 8px;
+}
+.para1{
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-left: 30px;
+  color:blue;
+}
+.para2{
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.container2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+  margin-top: 50px;
+  column-gap: 8px;
+  height: 150px;
+ 
+}
+.info1,.info2{
+background-color: rgb(28, 166, 212);
+  border-radius: 8px;
+}
+.direct1{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+min-width: 100%;
+
+}
+
+.info2{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+
+
+}
+.click-btn{
+  vertical-align: middle;
+  margin-left: 50px;
+  padding: 10px 10px;
+  border-radius: 6px;
+  border: 0;
+  box-shadow: 6px;
+  font-weight: bold;
+  background-color: rgb(49, 49, 235);
+  color: white;
+  height: 40px;
+}
+.click-btn:hover{
+  background-color: blue;
+}
+footer{
+  background-color: rgb(61, 187, 230);
+  margin-top: 50px;
+  height: 40px;
+  color: white;
+  font-size: 1.5em;
+  position:;
+}
+.carpic{
+  width: 60px;
+}

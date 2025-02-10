@@ -1,0 +1,26 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box
+
+}
+.contact-page{
+  display: flex;
+  justify-content: center
+  ;
+  align-items: center;
+  height: 100vh;
+  width:100vw ;
+  background-color: #f4f4f4;
+}
+
+.contact-button{
+  padding: 15px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.contact-button:hover{background-color: #0056b3;}

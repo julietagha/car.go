@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+nav ul li:hover{
+   padding: 10px 10px;
+    border:1px solid black;
+    border-radius: 6px;
+    background-color: black;
+}
+
+
+
+.container{
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-rows: 200px 200px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    
+
+}
+.main1,.main2{
+    border: 1px solid black;
+border-radius: 6px;
+
+}
+.main2{
+    background-color: blanchedalmond;
+}
+.main1{
+    padding: 10px;
+}
+.checkbtn{
+    font-size: 1em;
+    font-weight: bold;
+    background-color: blue;
+    border: none;
+    color: #f4f4f4;
+    padding: 10px 10px;
+    border-radius: 8px;
+
+}
+.checkbtn:hover{
+background-color: #fff;
+border: 1px solid black;
+color: black;
+}
